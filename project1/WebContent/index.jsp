@@ -18,6 +18,7 @@
 		<c:forEach items="${alist }" var="bean">
 		<tr>
 			<td>${bean.id }</td>
+			<td>hi</td>
 
 		</tr>
 		</c:forEach>
