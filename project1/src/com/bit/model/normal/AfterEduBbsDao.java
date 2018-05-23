@@ -28,6 +28,11 @@ public class AfterEduBbsDao {//lec_after
 			while(rs.next()){
 				AfterEduBbsDto dto = new AfterEduBbsDto();
 				dto.setId(rs.getString("id"));
+				dto.setContent(rs.getString("content"));
+				dto.setHit(rs.getInt("hit"));
+				dto.setIdx(rs.getInt("idx"));
+				dto.setSub(rs.getString("sub"));
+				dto.setWdate(rs.getDate("wdate"));
 				list.add(dto);
 			}
 		}finally{

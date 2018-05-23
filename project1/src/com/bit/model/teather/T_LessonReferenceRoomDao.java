@@ -13,9 +13,9 @@ public class T_LessonReferenceRoomDao {
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
-	public List<T_OnlineTestDto> selectAll() throws SQLException {
+	public List<T_LessonReferenceRoomDto> selectAll() throws SQLException {
 		String sql="SELECT * FROM AfterClassBbs";
-		List<T_OnlineTestDto> list =new ArrayList<T_OnlineTestDto>();
+		List<T_LessonReferenceRoomDto> list =new ArrayList<T_LessonReferenceRoomDto>();
 		try{
 			try {
 				conn=MyOracle.getConnection();
@@ -25,7 +25,7 @@ public class T_LessonReferenceRoomDao {
 			pstmt=conn.prepareStatement(sql);
 			rs=pstmt.executeQuery();
 			while(rs.next()){
-				T_OnlineTestDto dto = new T_OnlineTestDto();
+				T_LessonReferenceRoomDto dto = new T_LessonReferenceRoomDto();
 				//dto.set(rs.getInt("id"));
 				list.add(dto);
 			}

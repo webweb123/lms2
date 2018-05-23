@@ -13,9 +13,9 @@ public class S_OnlineTestDao {
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
-	public List<S_StudentNoticeDto> selectAll() throws SQLException {
+	public List<S_OnlineTestDto> selectAll() throws SQLException {
 		String sql="SELECT * FROM AfterClassBbs";
-		List<S_StudentNoticeDto> list =new ArrayList<S_StudentNoticeDto>();
+		List<S_OnlineTestDto> list =new ArrayList<S_OnlineTestDto>();
 		try{
 			try {
 				conn=MyOracle.getConnection();
@@ -25,7 +25,7 @@ public class S_OnlineTestDao {
 			pstmt=conn.prepareStatement(sql);
 			rs=pstmt.executeQuery();
 			while(rs.next()){
-				S_StudentNoticeDto dto = new S_StudentNoticeDto();
+				S_OnlineTestDto dto = new S_OnlineTestDto();
 				//dto.set(rs.getInt("id"));
 				list.add(dto);
 			}

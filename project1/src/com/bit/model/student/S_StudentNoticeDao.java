@@ -14,9 +14,9 @@ public class S_StudentNoticeDao {
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
-	public List<T_AttendanceDto> selectAll() throws SQLException {
+	public List<S_StudentNoticeDto> selectAll() throws SQLException {
 		String sql="SELECT * FROM AfterClassBbs";
-		List<T_AttendanceDto> list =new ArrayList<T_AttendanceDto>();
+		List<S_StudentNoticeDto> list =new ArrayList<S_StudentNoticeDto>();
 		try{
 			try {
 				conn=MyOracle.getConnection();
@@ -26,7 +26,7 @@ public class S_StudentNoticeDao {
 			pstmt=conn.prepareStatement(sql);
 			rs=pstmt.executeQuery();
 			while(rs.next()){
-				T_AttendanceDto dto = new T_AttendanceDto();
+				S_StudentNoticeDto dto = new S_StudentNoticeDto();
 				//dto.set(rs.getInt("id"));
 				list.add(dto);
 			}

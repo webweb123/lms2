@@ -13,9 +13,9 @@ public class T_FreeBbsDao {
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
-	public List<T_MyProfileDto> selectAll() throws SQLException {
+	public List<T_FreeBbsDao> selectAll() throws SQLException {
 		String sql="SELECT * FROM AfterClassBbs";
-		List<T_MyProfileDto> list =new ArrayList<T_MyProfileDto>();
+		List<T_FreeBbsDao> list =new ArrayList<T_FreeBbsDao>();
 		try{
 			try {
 				conn=MyOracle.getConnection();
@@ -25,7 +25,7 @@ public class T_FreeBbsDao {
 			pstmt=conn.prepareStatement(sql);
 			rs=pstmt.executeQuery();
 			while(rs.next()){
-				T_MyProfileDto dto = new T_MyProfileDto();
+				T_FreeBbsDao dto = new T_FreeBbsDao();
 				//dto.set(rs.getInt("id"));
 				list.add(dto);
 			}

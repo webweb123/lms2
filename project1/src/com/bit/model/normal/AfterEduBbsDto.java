@@ -1,11 +1,20 @@
 package com.bit.model.normal;
 
+import java.sql.Date;
+
 public class AfterEduBbsDto {//교육후기 게시판
 	private int idx;
 	private String id;
 	private String sub;
 	private String content;
 	private int hit;
+	private Date wdate;
+	public Date getWdate() {
+		return wdate;
+	}
+	public void setWdate(Date wdate) {
+		this.wdate = wdate;
+	}
 	public int getIdx() {
 		return idx;
 	}
