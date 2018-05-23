@@ -19,7 +19,7 @@
 		<tr>
 			<td>${bean.id }</td>
 			<td>hi</td>
-
+			<td>잼잼</td>
 		</tr>
 		</c:forEach>
 
