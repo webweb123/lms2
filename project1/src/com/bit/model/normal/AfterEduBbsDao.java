@@ -9,13 +9,13 @@ import java.util.List;
 
 import com.bit.util.MyOracle;
 
-public class AfterEduBbsDao {
+public class AfterEduBbsDao {//lec_after
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
 	
 	public List<AfterEduBbsDto> selectAll() throws SQLException {
-		String sql="SELECT * FROM AfterClassBbs";
+		String sql="SELECT * FROM lec_after";
 		List<AfterEduBbsDto> list =new ArrayList<AfterEduBbsDto>();
 		try{
 			try {

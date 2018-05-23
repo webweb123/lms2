@@ -1,5 +1,5 @@
 package com.bit.model.student;
 
-public class S_StudentNotice {
+public class S_AfterEduBbsDao {
 
 }

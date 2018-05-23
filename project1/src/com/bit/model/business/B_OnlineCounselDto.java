@@ -1,5 +1,5 @@
 package com.bit.model.business;
 
-public class B_Faq {
+public class B_OnlineCounselDto {
 
 }

@@ -1,80 +1,5 @@
 ALTER TABLE jop_af
 	DROP
-		CONSTRAINT FK_Staff_TO_jop_af
-		CASCADE;
-
-ALTER TABLE job_bbs
-	DROP
-		CONSTRAINT FK_Staff_TO_job_bbs
-		CASCADE;
-
-ALTER TABLE free_bbs
-	DROP
-		CONSTRAINT FK_Staff_TO_free_bbs
-		CASCADE;
-
-ALTER TABLE free_bbs
-	DROP
-		CONSTRAINT FK_Student_TO_free_bbs
-		CASCADE;
-
-ALTER TABLE lec_room
-	DROP
-		CONSTRAINT FK_Staff_TO_lec_room
-		CASCADE;
-
-ALTER TABLE FAQ
-	DROP
-		CONSTRAINT FK_Staff_TO_FAQ
-		CASCADE;
-
-ALTER TABLE att_bbs
-	DROP
-		CONSTRAINT FK_Student_TO_att_bbs
-		CASCADE;
-
-ALTER TABLE att_bbs
-	DROP
-		CONSTRAINT FK_Staff_TO_att_bbs
-		CASCADE;
-
-ALTER TABLE grade_check
-	DROP
-		CONSTRAINT FK_Student_TO_grade_check
-		CASCADE;
-
-ALTER TABLE grade_check
-	DROP
-		CONSTRAINT FK_Staff_TO_grade_check
-		CASCADE;
-
-ALTER TABLE cos_notice
-	DROP
-		CONSTRAINT FK_Staff_TO_cos_notice
-		CASCADE;
-
-ALTER TABLE lec_create
-	DROP
-		CONSTRAINT FK_Staff_TO_lec_create
-		CASCADE;
-
-ALTER TABLE lec_after
-	DROP
-		CONSTRAINT FK_Staff_TO_lec_after
-		CASCADE;
-
-ALTER TABLE jop_cs
-	DROP
-		CONSTRAINT FK_Staff_TO_jop_cs
-		CASCADE;
-
-ALTER TABLE notice_bbs
-	DROP
-		CONSTRAINT FK_Staff_TO_notice_bbs
-		CASCADE;
-
-ALTER TABLE jop_af
-	DROP
 		PRIMARY KEY
 		CASCADE
 		KEEP INDEX;
@@ -240,7 +165,7 @@ DROP TABLE notice_bbs
 /* 취업후기 */
 CREATE TABLE jop_af (
 	idx NUMBER NOT NULL, /* 글번호 */
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	sub VARCHAR2(255) NOT NULL, /* 제목 */
 	content VARCHAR2(255), /* 내용 */
 	hit NUMBER, /* 조회수 */
@@ -257,7 +182,7 @@ ALTER TABLE jop_af
 /* 취업정보 */
 CREATE TABLE job_bbs (
 	idx NUMBER NOT NULL, /* 글번호 */
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	sub VARCHAR2(255) NOT NULL, /* 제목 */
 	content VARCHAR2(255) NOT NULL, /* 내용 */
 	hit NUMBER, /* 조회수 */
@@ -273,7 +198,7 @@ ALTER TABLE job_bbs
 
 /* 자유게시판 */
 CREATE TABLE free_bbs (
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	sub VARCHAR2(255), /* 제목 */
 	content VARCHAR2(255), /* 내용 */
 	hit NUMBER, /* 조회수 */
@@ -290,7 +215,7 @@ ALTER TABLE free_bbs
 /* 수업자료실 */
 CREATE TABLE lec_room (
 	idx NUMBER NOT NULL, /* 글번호 */
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	sub VARCHAR2(255) NOT NULL, /* 제목 */
 	content VARCHAR2(255), /* 내용 */
 	hit NUMBER, /* 조회수 */
@@ -307,7 +232,7 @@ ALTER TABLE lec_room
 /* FAQ */
 CREATE TABLE FAQ (
 	idx NUMBER NOT NULL, /* 글번호 */
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	sub VARCHAR2(255) NOT NULL, /* 제목 */
 	content VARCHAR2(255), /* 내용 */
 	hit NUMBER, /* 조회수 */
@@ -323,7 +248,7 @@ ALTER TABLE FAQ
 
 /* 출결 */
 CREATE TABLE att_bbs (
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	sts NUMBER NOT NULL, /* 출결 상태 */
 	att VARCHAR2(255) NOT NULL /* 출결 */
 );
@@ -353,7 +278,7 @@ ALTER TABLE online_test
 
 /* 성적확인게시판 */
 CREATE TABLE grade_check (
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	edu VARCHAR2(255) NOT NULL, /* 과목1 */
 	COL VARCHAR2(255), /* 과목2 */
 	COL2 VARCHAR2(255), /* 과목3 */
@@ -370,7 +295,7 @@ ALTER TABLE grade_check
 /* 고객센터 공지사항 */
 CREATE TABLE cos_notice (
 	idx NUMBER NOT NULL, /* 글번호 */
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	sub VARCHAR2(255) NOT NULL, /* 제목 */
 	content VARCHAR2(255), /* 내용 */
 	hit NUMBER, /* 조회수 */
@@ -391,13 +316,13 @@ CREATE TABLE lec_create (
 	eday DATE, /* 종료일 */
 	edu VARCHAR2(255) NOT NULL, /* 과목 */
 	tot NUMBER NOT NULL, /* 총원 */
-	id VARCHAR2(255) /* 이름 */
+	id VARCHAR(50) /* 이름 */
 );
 
 /* 교육후기 */
 CREATE TABLE lec_after (
 	idx NUMBER NOT NULL, /* 글번호 */
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	sub VARCHAR2(255) NOT NULL, /* 제목 */
 	content VARCHAR2(255), /* 내용 */
 	hit NUMBER, /* 조회수 */
@@ -413,7 +338,7 @@ ALTER TABLE lec_after
 
 /* 수강생 */
 CREATE TABLE Student (
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	pw VARCHAR2(255) NOT NULL, /* 비밀번호 */
 	name VARCHAR2(255) NOT NULL, /* 이름 */
 	phone VARCHAR2(30), /* 전화번호 */
@@ -432,7 +357,7 @@ ALTER TABLE Student
 /* 취업현황 */
 CREATE TABLE jop_cs (
 	idx NUMBER NOT NULL, /* 글번호 */
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	eduCurri VARCHAR2(255), /* 교육과정 */
 	company VARCHAR2(255), /* 취업업체명 */
 	field VARCHAR2(255) /* 취업분야 */
@@ -460,7 +385,7 @@ ALTER TABLE app_bbs
 
 /* 직원 */
 CREATE TABLE Staff (
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	pw VARCHAR2(255) NOT NULL, /* 패스워드 */
 	name VARCHAR2(255) NOT NULL, /* 이름 */
 	phone VARCHAR2(30) NOT NULL, /* 전화번호 */
@@ -499,7 +424,7 @@ ALTER TABLE member
 /* 공지사항 */
 CREATE TABLE notice_bbs (
 	idx NUMBER NOT NULL, /* 글번호 */
-	id VARCHAR2(255) NOT NULL, /* 아이디 */
+	id VARCHAR(50) NOT NULL, /* 아이디 */
 	sub VARCHAR2(255) NOT NULL, /* 제목 */
 	content VARCHAR2(255), /* 내용 */
 	hit NUMBER, /* 조회수 */
@@ -511,154 +436,4 @@ ALTER TABLE notice_bbs
 		CONSTRAINT PK_notice_bbs
 		PRIMARY KEY (
 			idx
-		);
-
-ALTER TABLE jop_af
-	ADD
-		CONSTRAINT FK_Staff_TO_jop_af
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE job_bbs
-	ADD
-		CONSTRAINT FK_Staff_TO_job_bbs
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE free_bbs
-	ADD
-		CONSTRAINT FK_Staff_TO_free_bbs
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE free_bbs
-	ADD
-		CONSTRAINT FK_Student_TO_free_bbs
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Student (
-			id
-		);
-
-ALTER TABLE lec_room
-	ADD
-		CONSTRAINT FK_Staff_TO_lec_room
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE FAQ
-	ADD
-		CONSTRAINT FK_Staff_TO_FAQ
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE att_bbs
-	ADD
-		CONSTRAINT FK_Student_TO_att_bbs
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Student (
-			id
-		);
-
-ALTER TABLE att_bbs
-	ADD
-		CONSTRAINT FK_Staff_TO_att_bbs
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE grade_check
-	ADD
-		CONSTRAINT FK_Student_TO_grade_check
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Student (
-			id
-		);
-
-ALTER TABLE grade_check
-	ADD
-		CONSTRAINT FK_Staff_TO_grade_check
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE cos_notice
-	ADD
-		CONSTRAINT FK_Staff_TO_cos_notice
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE lec_create
-	ADD
-		CONSTRAINT FK_Staff_TO_lec_create
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE lec_after
-	ADD
-		CONSTRAINT FK_Staff_TO_lec_after
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE jop_cs
-	ADD
-		CONSTRAINT FK_Staff_TO_jop_cs
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
-		);
-
-ALTER TABLE notice_bbs
-	ADD
-		CONSTRAINT FK_Staff_TO_notice_bbs
-		FOREIGN KEY (
-			id
-		)
-		REFERENCES Staff (
-			id
 		);
