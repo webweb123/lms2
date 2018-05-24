@@ -182,7 +182,6 @@
 	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide04.jpg"/> <br/>&nbsp;&nbsp;  정규과정[JAVA]</div>
 	
 	</div>
-
 	
 	
 	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\section.jpg" class="main-img"/>
@@ -209,6 +208,6 @@
 
 	</footer>
 	
-	
+	</table>
 </body>
 </html>
