@@ -15,7 +15,7 @@ public class S_StudentNoticeDao {
 	private PreparedStatement pstmt;
 	private ResultSet rs;
 	public List<S_StudentNoticeDto> selectAll() throws SQLException {
-		String sql="SELECT * FROM AfterClassBbs";
+		String sql="SELECT * FROM notice_bbs";
 		List<S_StudentNoticeDto> list =new ArrayList<S_StudentNoticeDto>();
 		try{
 			try {
@@ -27,7 +27,9 @@ public class S_StudentNoticeDao {
 			rs=pstmt.executeQuery();
 			while(rs.next()){
 				S_StudentNoticeDto dto = new S_StudentNoticeDto();
-				//dto.set(rs.getInt("id"));
+				dto.setIdx(rs.getInt("idx"));
+				dto.setSub(rs.getString("sub"));
+				dto.setId(rs.getString("id"));
 				list.add(dto);
 			}
 		}finally{

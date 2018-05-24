@@ -14,6 +14,9 @@ public class S_AfterSucStuBbsDao {
 	private PreparedStatement pstmt;
 	private ResultSet rs;
 	
+	public void selectOne(String emp_num){}
+	public void deleteOne(String emp_num){}
+	public void modiOne(String emp_num){}
 	public List<S_AttendanceDto> selectAll() throws SQLException {
 		String sql="SELECT * FROM free_bbs";
 		List<S_AttendanceDto> list =new ArrayList<S_AttendanceDto>();

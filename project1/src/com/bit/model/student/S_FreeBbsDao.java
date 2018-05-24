@@ -15,6 +15,10 @@ public class S_FreeBbsDao {
 	private PreparedStatement pstmt;
 	private ResultSet rs;
 	
+	public void updateOne(int emp_num){}
+	public void deleteOne(int emp_num){}
+	public void modiOne(int emp_num){}
+	public S_FreeBbsDto selectOne(int emp_num){return new S_FreeBbsDto();}
 	public List<S_FreeBbsDto> selectAll() throws SQLException {
 		String sql="SELECT * FROM free_bbs";
 		List<S_FreeBbsDto> list =new ArrayList<S_FreeBbsDto>();

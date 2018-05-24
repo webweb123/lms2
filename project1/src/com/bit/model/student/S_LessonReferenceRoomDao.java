@@ -13,6 +13,7 @@ public class S_LessonReferenceRoomDao {
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
+	public S_LessonReferenceRoomDto selectOne(int emp_num){return new S_LessonReferenceRoomDto();}
 	public List<S_LessonReferenceRoomDto> selectAll() throws SQLException {
 		String sql="SELECT * FROM AfterClassBbs";
 		List<S_LessonReferenceRoomDto> list =new ArrayList<S_LessonReferenceRoomDto>();

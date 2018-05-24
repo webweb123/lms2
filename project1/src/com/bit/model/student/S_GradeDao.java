@@ -13,6 +13,10 @@ public class S_GradeDao {
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
+	public void updateOne(int emp_num){}
+	public void deleteOne(int emp_num){}
+	public void modiOne(int emp_num){}
+	public S_GradeDto selectOne(int emp_num){return new S_GradeDto();}
 	public List<S_GradeDto> selectAll() throws SQLException {
 		String sql="SELECT * FROM AfterClassBbs";
 		List<S_GradeDto> list =new ArrayList<S_GradeDto>();

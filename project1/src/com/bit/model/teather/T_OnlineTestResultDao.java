@@ -1,4 +1,4 @@
-package com.bit.model.student;
+package com.bit.model.teather;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,14 +9,13 @@ import java.util.List;
 
 import com.bit.util.MyOracle;
 
-public class S_MyProfileDao {
+public class T_OnlineTestResultDao {
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
-	private S_MyProfileDto bean;
-	public S_MyProfileDto selectOne(int idx) throws SQLException {
-		String sql="SELECT * FROM student=?";
-		
+	public List<T_OnlineTestResultDto> selectAll() throws SQLException {
+		String sql="SELECT * FROM AfterClassBbs";
+		List<T_OnlineTestResultDto> list =new ArrayList<T_OnlineTestResultDto>();
 		try{
 			try {
 				conn=MyOracle.getConnection();
@@ -24,22 +23,17 @@ public class S_MyProfileDao {
 				e.printStackTrace();
 			}
 			pstmt=conn.prepareStatement(sql);
-			pstmt.setInt(1, idx);
 			rs=pstmt.executeQuery();
 			while(rs.next()){
-				bean.setId(rs.getString("id"));
-				bean.setAddress(rs.getString("address"));
-				bean.setBirth(rs.getString("birth"));
-				bean.setEmail(rs.getString("email"));
-				bean.setIdx(rs.getInt("idx"));
-				bean.setName(rs.getString("name"));
-				bean.setPhone(rs.getString("phone"));
+				T_OnlineTestResultDto dto = new T_OnlineTestResultDto();
+				//dto.set(rs.getInt("id"));
+				list.add(dto);
 			}
 		}finally{
 			if(rs!=null)rs.close();
 			if(pstmt!=null)pstmt.close();
 			if(conn!=null)conn.close();
 		}
-		return bean;
+		return list;
 	}
 }
