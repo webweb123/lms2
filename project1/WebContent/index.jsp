@@ -10,23 +10,26 @@
 <style type="text/css">
 	
 	#topMenu{
-		height:30px;
-		width:850px;
-		border-bottom:1px solid gray;
-		padding-bottom: 5px;
+		height:40px;
+		width:100%;
+		border-top:1px solid #cccccc;
+		border-bottom:1px solid #cccccc;
 	}
 
 	.header-inner>ul{
 		list-style:none;
 		float:left;	
-		
 	}
 	
-	.header-inner>ul>li{
+	.ul_inner>li{
 		float:left;
 		padding: 0 2px;
 	}
 	
+	.ul_inner>li>a{
+		text-decoration:none;
+		color:black;
+	}
 	
 	.header-login>ul{
 		list-style:none;
@@ -40,33 +43,94 @@
 		padding:0 5px;
 	}
 	
-	.nav_menu{
-		align:center;
-		margin:0px auto;
-	}
 
-	.nav_menu>ul{
+	#main-header{
+		width:100%;
+		height:70px;
+		margin-top:10px;
+		border-bottom:1px solid #cccccc;
+		
+	}
+	#main-header img{
+		margin-left:450px;
+		width:200px;
+	}
+	
+	
+	#nav_menu{
 		list-style:none;
-		margin:0px auto;	
+		margin:0;
+		padding:0;
+		text-align:center;
+		
 	}
-
-	.nav_menu>ul>li{
-		float:left;
+	#nav_menu ul{
+		display:inline-block;
 	}
-
-	.nav_menu>ul>li>a{
+	#nav_menu li{
+		display:inline;
+	}
+	#nav_menu a{
+		display:inline-block;
+		padding:10px;
+		padding-left:30px;
+		color:gray;
+	}
+	
+	.main-img{
+	
+		width:100%;
+	}
+	
+	
+	#main-section a{
 		text-decoration:none;
-		color:black;
-		padding:0 5px;
+		color:white;
+	}
+	
+	
+	
+	.main-section-img{
+		align:center;
+		margin:10px 150px;
 		
 	}
 	
-	#main-header{
-		width:850px;
-		height:100px;
-		border-bottom:1px solid gray;
+	.main-section-menu{
+	
+		display:inline-block;
+		font-size:10pt;
+		text-align:left;
+	
 	}
 	
+	.main-section-img img{
+		margin:10px 10px;
+		align:center;
+		
+	}
+	
+	
+	.footer_div{
+		background-color:#860000;
+		border:1px solid #860000;
+		width:100%;
+		height:80px;
+		color:white;
+		font-size:10pt;
+		
+	}
+	
+	.footer_content{
+		margin:10px 30px;
+		
+	}
+	
+	.footer_img{
+		float:right;
+		display:inline-block;
+		margin-right:10px;
+	}
 
 </style>
 </head>
@@ -74,16 +138,16 @@
 
 	<nav id="topMenu">
 	<div class="header-inner">
-	<ul>
-	<li>HOME|&nbsp;</li>
-	<li>서초센터|&nbsp;</li>
-	<li>강남센터|&nbsp;</li>
-	<li>신촌센터|&nbsp;</li>
-	<li>홍대센터</li>
+	<ul class="ul_inner">
+	<li><a href="#">HOME&nbsp;</a></li>
+	<li><a href="#">서초센터&nbsp;</a></li>
+	<li><a href="#">강남센터&nbsp;</a></li>
+	<li><a href="#">신촌센터&nbsp;</a></li>
+	<li><a href="#">종로센터</a></li>
 	</ul>
 	</div>
 	<div class="header-login">
-	<ul>
+	<ul class="ul_inner">
 	<li><a href="#">마이페이지</a></li>
 	<li><a href="#">로그인</a></li>
 	</ul>
@@ -93,28 +157,56 @@
 	
 	
 	<header id="main-header">
-	<h1>
-	
+
 	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\logo.jpg"/>
-	
-	</h1>	
-	
-	
+
 	</header>
 	
-	
-	
-	<nav class="nav_menu">
-	<ul>
-		<li><a href="#">education</a>|&nbsp;</li>
-		<li><a href="#">community</a>|&nbsp;</li>
-		<li><a href="#">support</a>|&nbsp;</li>
-		<li><a href="#">contact</a>|&nbsp;</li>
-		<li><a href="#">about us</a></li>
+	<nav id="nav_menu">
+	<ul class="ul_inner">
+		<li><a href="#">EDUCATION</a></li>
+		<li><a href="#">COMMUNITY</a></li>
+		<li><a href="#">SUPPORT</a></li>
+		<li><a href="#">CONTACT</a></li>
+		<li><a href="#">ABOUT US</a></li>
 	</ul>
 	</nav>
+	
+	<section id="main-section">
+	
+	
+	<div class="main-section-img">
+	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide01.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[재직자직무교육]</div>
+	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide02.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[취업성공패키지]</div>
+	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide03.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[내일배움카드]</div>
+	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide04.jpg"/> <br/>&nbsp;&nbsp;  정규과정[JAVA]</div>
+	
+	</div>
 
-	<footer>
+	
+	
+	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\section.jpg" class="main-img"/>
+	</section>
+	
+	<br/>
+
+	<footer id="main-footer">
+	
+	<div class="footer_div">
+	<div class="footer_content">
+	
+	<div class="footer_img">
+	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\bottom01.jpg"/>
+	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\bottom02.jpg"/>
+	</div>
+	
+	비트캠프 서울특별시 구로구 구로동 810-10 비트아카데미 | 사업자 등록번호: 214-85-24928 <br/>
+	(주)비트컴퓨터 구로지점 대표이사: 조현정/ 문의: 02-3486-9600 /팩스: 02-6007-1245 <br/>
+	통신판매업 신고번호: 제 구로-05902호/ 개인정보 관리 책임자: 송승현<br/>
+	Copyright (c) 비트캠프 All rights reserved.<br/>
+	</div>
+	</div>
+
 	</footer>
 	
 	
