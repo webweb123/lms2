@@ -28,7 +28,13 @@ public class T_StudentListDao {
 			rs=pstmt.executeQuery();
 			while(rs.next()){
 				T_StudentListDto dto = new T_StudentListDto();
-				//dto.set(rs.getInt("id"));
+				dto.setId(rs.getString("id"));
+				dto.setAddress(rs.getString("address"));
+				dto.setBirth(rs.getString("birth"));
+				dto.setEmail(rs.getString("email"));
+				dto.setIdx(rs.getInt("idx"));
+				dto.setName(rs.getString("name"));
+				dto.setPhone(rs.getString("phone"));
 				list.add(dto);
 			}
 		}finally{
