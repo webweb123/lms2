@@ -1,5 +1,5 @@
 package com.bit.model;
 
-public class Member_Dao {
+public class Stu_member_Dao {
 
 }

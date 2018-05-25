@@ -1,8 +1,7 @@
 package com.bit.model;
 
-public class Student_Dto {
+public class Stu_member_Dto {
 	private int stu_code;
-	private int season;
 	private String id;
 	private String pw;
 	private String name;
@@ -10,18 +9,11 @@ public class Student_Dto {
 	private String email;
 	private String birth;
 	private String address;
-	private int class_room;
 	public int getStu_code() {
 		return stu_code;
 	}
 	public void setStu_code(int stu_code) {
 		this.stu_code = stu_code;
-	}
-	public int getSeason() {
-		return season;
-	}
-	public void setSeason(int season) {
-		this.season = season;
 	}
 	public String getId() {
 		return id;
@@ -64,12 +56,6 @@ public class Student_Dto {
 	}
 	public void setAddress(String address) {
 		this.address = address;
-	}
-	public int getClass_room() {
-		return class_room;
-	}
-	public void setClass_room(int class_room) {
-		this.class_room = class_room;
 	}
 	
 	
