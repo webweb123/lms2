@@ -3,6 +3,7 @@ package com.bit.model;
 import java.sql.Date;
 
 public class App_bbs_emp_Dto {
+	
 	private int emp_num;
 	private int idx;
 	private String id;

@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script type="text/javascript" src="./js/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\lib\jquery-1.12.4.js"></script>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+
 <title>Insert title here</title>
+
 <style type="text/css">
 	
 	#topMenu{
@@ -133,6 +136,32 @@
 	}
 
 </style>
+
+<script type="text/javascript">
+
+
+
+	$(function(){
+		alert('확인');
+	});
+
+
+	$(document).ready(function(){
+		
+		
+	
+	
+	
+	$(".ul_inner>li").mouseover(function(){
+		$(".ul_inner>li").css("background-color","yellow");
+	});
+
+});
+
+
+</script>
+
+
 </head>
 <body>
 
