@@ -1,181 +1,1130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="com.bit.model.person.GuestDto" project="project1" 
-    file="/project1/src/com/bit/model/person/GuestDto.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="140" y="46"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="com.bit.ctr.normal.indexController" project="project1" 
-    file="/project1/src/com/bit/ctr/normal/indexController.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="156" y="-557"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="3" language="java" name="com.bit.util.MyOracle" project="project1" 
+<class-diagram version="1.2.2" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.bit.util.MyOracle" project="project1" 
     file="/project1/src/com/bit/util/MyOracle.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="612" y="641"/>    
+    <position height="-1" width="-1" x="5343" y="780"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="com.bit.model.person.EmpDao" project="project1" 
-    file="/project1/src/com/bit/model/person/EmpDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="350" y="369"/>    
+  <class id="2" language="java" name="com.bit.model.Student_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Student_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5031" y="2159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="com.bit.model.person.EmpDto" project="project1" 
-    file="/project1/src/com/bit/model/person/EmpDto.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="363" y="-13"/>    
+  <class id="3" language="java" name="com.bit.model.Jop_af_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Jop_af_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3989" y="2159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="com.bit.model.person.StudentDao" project="project1" 
-    file="/project1/src/com/bit/model/person/StudentDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="520" y="366"/>    
+  <class id="4" language="java" name="com.bit.model.Online_cs_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Online_cs_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5662" y="2159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="com.bit.model.person.GuestDao" project="project1" 
-    file="/project1/src/com/bit/model/person/GuestDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="152" y="376"/>    
+  <class id="5" language="java" name="com.bit.model.FAQ_Dao" project="project1" 
+    file="/project1/src/com/bit/model/FAQ_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2202" y="2159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="com.bit.model.person.StudentDto" project="project1" 
-    file="/project1/src/com/bit/model/person/StudentDto.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="510" y="18"/>    
+  <class id="6" language="java" name="com.bit.model.Stu_notice_bbs_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Stu_notice_bbs_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3682" y="2159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="com.bit.model.normal.JobInformBbsDto" project="project1" 
-    file="/project1/src/com/bit/model/normal/JobInformBbsDto.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="700" y="-59"/>    
+  <class id="7" language="java" name="com.bit.model.App_bbs_stu_Dao" project="project1" 
+    file="/project1/src/com/bit/model/App_bbs_stu_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2564" y="2159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="com.bit.model.normal.AfterEduBbsDao" project="project1" 
-    file="/project1/src/com/bit/model/normal/AfterEduBbsDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1127" y="359"/>    
+  <class id="8" language="java" name="com.bit.model.Emp_member_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Emp_member_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3242" y="2568"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="com.bit.model.normal.JobInformBbsDao" project="project1" 
-    file="/project1/src/com/bit/model/normal/JobInformBbsDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="703" y="355"/>    
+  <class id="9" language="java" name="com.bit.model.Jop_cs_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Jop_cs_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4621" y="2514"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="com.bit.model.normal.AfterSucBbsDto" project="project1" 
-    file="/project1/src/com/bit/model/normal/AfterSucBbsDto.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1543" y="24"/>    
+  <class id="10" language="java" name="com.bit.model.Cs_notice_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Cs_notice_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8402" y="2159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="com.bit.model.normal.AfterEduBbsDto" project="project1" 
-    file="/project1/src/com/bit/model/normal/AfterEduBbsDto.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1105" y="62"/>    
+  <class id="11" language="java" name="com.bit.model.Lec_after_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Lec_after_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8102" y="2159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="com.bit.model.normal.AfterSucBbsDao" project="project1" 
-    file="/project1/src/com/bit/model/normal/AfterSucBbsDao.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1564" y="340"/>    
+  <class id="12" language="java" name="com.bit.model.Student_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Student_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4919" y="2622"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <dependency id="15">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <dependency id="16">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <dependency id="17">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="12"/>  
-  </dependency>  
-  <dependency id="18">    
+  <class id="13" language="java" name="com.bit.model.Att_bbs_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Att_bbs_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6255" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.bit.model.Stu_notice_bbs_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Stu_notice_bbs_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3618" y="2541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.bit.model.Jop_af_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Jop_af_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3924" y="2541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.bit.model.Job_info_bbs_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Job_info_bbs_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6830" y="2541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.bit.model.Emp_member_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Emp_member_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3340" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.bit.model.Lec_after_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Lec_after_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8044" y="2514"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.bit.model.Cs_notice_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Cs_notice_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8337" y="2541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.bit.model.Online_cs_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Online_cs_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5573" y="2568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.bit.model.Stu_member_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Stu_member_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2962" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.bit.model.Grade_check_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Grade_check_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7440" y="2487"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.bit.model.Att_bbs_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Att_bbs_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6231" y="2433"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.bit.model.Jop_cs_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Jop_cs_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4678" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.bit.model.Free_bbs_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Free_bbs_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7137" y="2541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.bit.model.Online_test_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Online_test_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5375" y="2153"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.bit.model.App_bbs_emp_Dao" project="project1" 
+    file="/project1/src/com/bit/model/App_bbs_emp_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4336" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.bit.model.Lec_data_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Lec_data_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5928" y="2541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.bit.model.Staff_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Staff_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6455" y="2568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.bit.model.Stu_member_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Stu_member_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2864" y="2568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.bit.model.Job_info_bbs_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Job_info_bbs_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6895" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.bit.model.Lec_create_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Lec_create_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7731" y="2568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.bit.model.Staff_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Staff_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6553" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.bit.model.Free_bbs_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Free_bbs_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7202" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.bit.model.App_bbs_emp_Dto" project="project1" 
+    file="/project1/src/com/bit/model/App_bbs_emp_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4234" y="2595"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.bit.model.FAQ_Dto" project="project1" 
+    file="/project1/src/com/bit/model/FAQ_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2137" y="2541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.bit.model.App_bbs_stu_Dto" project="project1" 
+    file="/project1/src/com/bit/model/App_bbs_stu_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2447" y="2622"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.bit.model.Lec_create_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Lec_create_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7798" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.bit.model.Grade_check_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Grade_check_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7498" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.bit.model.Lec_data_Dao" project="project1" 
+    file="/project1/src/com/bit/model/Lec_data_Dao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5993" y="2159"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.bit.ctr.T.T_mypage_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/T/T_mypage_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6781" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.bit.ctr.T.T_free_bbs_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/T/T_free_bbs_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5797" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.bit.ctr.T.T_stu_list_detail_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/T/T_stu_list_detail_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3501" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.bit.ctr.T.T_att_bbs_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/T/T_att_bbs_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3195" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="com.bit.ctr.T.T_grade_modi_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/T/T_grade_modi_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6125" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="com.bit.ctr.T.T_lec_data_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/T/T_lec_data_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2875" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="com.bit.ctr.T.T_lec_data_detail_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/T/T_lec_data_detail_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5827" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.bit.ctr.T.T_stu_list_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/T/T_stu_list_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6483" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="com.bit.ctr.T.T_set_exam_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/T/T_set_exam_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1883" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="com.bit.ctr.S.S_att_check_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_att_check_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1227" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="com.bit.ctr.S.S_job_af_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_job_af_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4507" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="com.bit.ctr.S.S_job_af_write_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_job_af_write_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2211" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="com.bit.ctr.S.S_mypage_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_mypage_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4485" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="com.bit.ctr.S.S_free_bbs_detail_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_free_bbs_detail_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8115" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="com.bit.ctr.S.S_lec_af_write_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_lec_af_write_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3851" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="com.bit.ctr.S.S_get_exam_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_get_exam_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9107" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="com.bit.ctr.S.S_lec_data_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_lec_data_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5491" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="com.bit.ctr.S.S_free_bbs_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_free_bbs_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6147" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="com.bit.ctr.S.S_grade_check_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_grade_check_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4187" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="com.bit.ctr.S.S_myclass_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_myclass_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6475" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="com.bit.ctr.S.S_lec_af_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/S/S_lec_af_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6453" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="com.bit.ctr.J.J_job_info_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/J/J_job_info_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8771" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="com.bit.ctr.J.J_stu_list_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/J/J_stu_list_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2539" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="com.bit.ctr.J.J_job_cs_write_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/J/J_job_cs_write_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8451" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="com.bit.ctr.J.J_stu_list_detail_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/J/J_stu_list_detail_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9435" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="com.bit.ctr.J.J_job_cs_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/J/J_job_cs_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4835" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="com.bit.ctr.J.J_er_list_detail_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/J/J_er_list_detail_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7787" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="com.bit.ctr.J.J_mypage_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/J/J_mypage_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5141" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="com.bit.ctr.J.J_er_list_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/J/J_er_list_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8443" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="70" language="java" name="com.bit.ctr.H.H_job_info_bbs_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_job_info_bbs_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1235" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="71" language="java" name="com.bit.ctr.H.H_faq_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_faq_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5171" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="72" language="java" name="com.bit.ctr.H.H_lec_af_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_lec_af_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7109" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="73" language="java" name="com.bit.ctr.H.H_intro_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_intro_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3829" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="74" language="java" name="com.bit.ctr.H.H_map_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_map_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4813" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="75" language="java" name="com.bit.ctr.H.H_index_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_index_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1891" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="76" language="java" name="com.bit.ctr.H.H_login_af_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_login_af_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3203" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="77" language="java" name="com.bit.ctr.H.H_login_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_login_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4179" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="78" language="java" name="com.bit.ctr.H.H_online_cs_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_online_cs_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1563" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="79" language="java" name="com.bit.ctr.H.H_ap_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_ap_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5819" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="80" language="java" name="com.bit.ctr.H.H_es_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_es_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5499" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="81" language="java" name="com.bit.ctr.H.H_staff_join_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_staff_join_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9099" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="82" language="java" name="com.bit.ctr.H.H_job_af_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_job_af_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1555" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="83" language="java" name="com.bit.ctr.H.H_edu_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_edu_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4515" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="84" language="java" name="com.bit.ctr.H.H_my_info_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_my_info_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3531" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="85" language="java" name="com.bit.ctr.H.H_job_ad_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_job_ad_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7459" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="86" language="java" name="com.bit.ctr.H.H_edu_af_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_edu_af_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3523" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="87" language="java" name="com.bit.ctr.H.H_ti_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_ti_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7455" y="3855"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="88" language="java" name="com.bit.ctr.H.H_job_cs_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_job_cs_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3859" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="89" language="java" name="com.bit.ctr.H.H_ci_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/H/H_ci_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7467" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="90" language="java" name="com.bit.ctr.C.C_cs_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_cs_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8779" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="91" language="java" name="com.bit.ctr.C.C_cs_faq_detail_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_cs_faq_detail_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6811" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="92" language="java" name="com.bit.ctr.C.C_notice_list_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_notice_list_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7131" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="93" language="java" name="com.bit.ctr.C.C_mypage_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_mypage_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6155" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="94" language="java" name="com.bit.ctr.C.C_online_cs_list_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_online_cs_list_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4843" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="95" language="java" name="com.bit.ctr.C.C_online_cs_detail_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_online_cs_detail_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2547" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="96" language="java" name="com.bit.ctr.C.C_cs_faq_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_cs_faq_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="9427" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="97" language="java" name="com.bit.ctr.C.C_cs_faq_write_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_cs_faq_write_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2219" y="3525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="98" language="java" name="com.bit.ctr.C.C_notice_detail_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_notice_detail_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="8123" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="99" language="java" name="com.bit.ctr.C.C_curri_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/C/C_curri_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5163" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="100" language="java" name="com.bit.ctr.A.A_free_bbs_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/A/A_free_bbs_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2867" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="101" language="java" name="com.bit.ctr.A.A_app_emp_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/A/A_app_emp_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3173" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="102" language="java" name="com.bit.ctr.A.A_app_stu_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/A/A_app_stu_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7795" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="103" language="java" name="com.bit.ctr.A.A_lec_create_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/A/A_lec_create_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="6803" y="3185"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="104" language="java" name="com.bit.ctr.A.A_stu_notice_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/A/A_stu_notice_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4157" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="105" language="java" name="com.bit.ctr.A.A_mypage_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/A/A_mypage_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5469" y="3835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="106" language="java" name="com.bit.ctr.A.A_stu_notice_write_controller" project="project1" 
+    file="/project1/src/com/bit/ctr/A/A_stu_notice_write_controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="7139" y="3535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="107" language="java" name="com.bit.model.Online_test_Dto" project="project1" 
+    file="/project1/src/com/bit/model/Online_test_Dto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="5370" y="2520"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="108">    
     <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="3"/>  
+    <end type="TARGET" refId="19"/>  
   </dependency>  
-  <dependency id="19">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="3"/>  
+  <dependency id="109">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="30"/>  
   </dependency>  
-  <dependency id="20">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
+  <dependency id="110">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
-  <dependency id="21">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="3"/>  
+  <dependency id="111">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="107"/>  
   </dependency>  
-  <dependency id="22">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="5"/>  
+  <dependency id="112">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
-  <dependency id="23">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="13"/>  
+  <dependency id="113">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
-  <dependency id="24">    
+  <dependency id="114">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="35"/>  
+  </dependency>  
+  <dependency id="115">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="116">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="117">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="118">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="119">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="1"/>  
   </dependency>  
-  <dependency id="25">    
+  <dependency id="120">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="121">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <dependency id="122">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="123">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="37"/>  
+  </dependency>  
+  <dependency id="124">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="125">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="36"/>  
+  </dependency>  
+  <dependency id="126">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="127">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="128">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="129">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="130">    
     <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="131">    
+    <end type="SOURCE" refId="17"/>    
     <end type="TARGET" refId="8"/>  
   </dependency>  
-  <dependency id="26">    
+  <dependency id="132">    
     <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="133">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="134">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="135">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="136">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="137">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="138">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="139">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="140">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="141">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="142">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="143">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="32"/>  
+  </dependency>  
+  <dependency id="144">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="145">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="146">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="147">    
+    <end type="SOURCE" refId="24"/>    
     <end type="TARGET" refId="9"/>  
   </dependency>  
-  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
     <operations public="true" package="true" protected="true" private="true" static="true"/>  

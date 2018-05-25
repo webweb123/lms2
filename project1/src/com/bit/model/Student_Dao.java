@@ -3,7 +3,10 @@ package com.bit.model;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
+
+import com.bit.util.MyOracle;
 
 public class Student_Dao {
 	private Connection conn;
@@ -38,6 +41,13 @@ public class Student_Dao {
 	}
 
 	public Student_Dto selectOne(int code) {
+		Student_Dto a = new Student_Dto();
+		try {
+			conn=MyOracle.getConnection();
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return new Student_Dto();
 	}
 

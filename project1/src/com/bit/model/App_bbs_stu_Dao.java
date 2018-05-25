@@ -4,7 +4,10 @@ import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
+
+import com.bit.util.MyOracle;
 
 public class App_bbs_stu_Dao {
 	private Connection conn;
@@ -25,6 +28,13 @@ public class App_bbs_stu_Dao {
 	}
 
 	public App_bbs_stu_Dto selectOne(int code) {
+		App_bbs_stu_Dto a = new App_bbs_stu_Dto();
+		try {
+			conn=MyOracle.getConnection();
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return new App_bbs_stu_Dto();
 	}
 

@@ -4,7 +4,10 @@ import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
+
+import com.bit.util.MyOracle;
 
 public class Staff_Dao {
 	private Connection conn;
@@ -23,6 +26,13 @@ public class Staff_Dao {
 	}
 
 	public Staff_Dto selectOne(int code) {
+		Staff_Dto a = new Staff_Dto();
+		try {
+			conn=MyOracle.getConnection();
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return new Staff_Dto();
 	}
 
