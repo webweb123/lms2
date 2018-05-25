@@ -1,4 +1,4 @@
-package com.bit.ctr.S;
+package com.bit.ctr.A;
 
 import java.io.IOException;
 
@@ -7,17 +7,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class S_free_bbs_controller extends HttpServlet{
+public class A_app_emp_controller extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		super.doGet(req, resp);
 	}
+
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		super.doPost(req, resp);
 	}
 }
