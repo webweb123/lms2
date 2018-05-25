@@ -134,6 +134,16 @@
 		display:inline-block;
 		margin-right:10px;
 	}
+	
+	
+	#login-section h1,#login{
+		margin-left:480px;
+		
+	}
+	#login-section table{
+		margin:0px auto;
+	}
+	
 
 </style>
 
@@ -201,22 +211,30 @@
 	</ul>
 	</nav>
 	
-	<section id="main-section">
+	<section id="login-section">
+	
+		
+			<h1 >로그인</h1>
+			<div >
+			
+			<form method="post">
+			<table>
+				<tr>
+				<td>아이디</td>
+				<td><input type="text"/></td>
+				</tr>
+				<tr>
+				<td>비밀번호</td>
+				<td><input type="password"/></td>
+				</tr>
+			</table>
+			<input type="submit" value="로그인" id="login"></input>
+			</form>
+	
+			</div>
 	
 	
-	<div class="main-section-img">
-	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide01.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[재직자직무교육]</div>
-	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide02.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[취업성공패키지]</div>
-	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide03.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[내일배움카드]</div>
-	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide04.jpg"/> <br/>&nbsp;&nbsp;  정규과정[JAVA]</div>
-	
-	</div>
-	
-	
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\section.jpg" class="main-img"/>
 	</section>
-	
-	<br/>
 
 	<footer id="main-footer">
 	
@@ -236,6 +254,7 @@
 	</div>
 
 	</footer>
+	
 	
 </body>
 </html>
