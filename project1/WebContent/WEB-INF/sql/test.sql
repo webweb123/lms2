@@ -6,3 +6,4 @@ insert into STUDENT values(1,1,'test1','test1','test1','test1','test1','test1','
 
 
 insert into FREE_BBS values(free_bbs_sequ.nextval,1,'test1','test1','test1',0,sysdate);
+select * from FREE_BBS;
