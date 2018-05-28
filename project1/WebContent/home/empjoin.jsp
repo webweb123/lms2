@@ -179,32 +179,36 @@
 				<li>
 				<label for="uesr_id">&nbsp;아이디</label>&nbsp;
 				<input type="text" id="user_id">&nbsp;
-				<input type="button" value="중복확인" id="ducheck"></input>
+				<input type="button" value="중복확인" id="ducheck"/>
 
 				</li>
 				<li>
 				<label for="uesr_pwd">비밀번호</label>
-				<input type="password" id="user_pwd">
+				<input type="password" id="user_pwd"/>
 				</li>
 				<li>
 				<label for="uesr_name">이름</label>
-				<input type="text" id="user_name">
+				<input type="text" id="user_name"/>
+				</li>
+				<li>
+				<label for="user_dept">부서</label>
+				<input type="text" id="user_dept"/>				
 				</li>
 				<li>
 				<label for="uesr_pwd">생년월일</label>
-				<input type="text" id="user_pwd">
+				<input type="text" id="user_pwd"/>
 				</li>
 				<li>
 				<label for="uesr_addr">주소</label>
-				<input type="text" id="user_addr">		
+				<input type="text" id="user_addr"/>		
 				</li>
 				<li>
 				<label for="uesr_phone">전화번호</label>
-				<input type="text" id="user_phone">
+				<input type="text" id="user_phone"/>
 				</li>			
 				<li>
 				<label for="uesr_email">email</label>
-				<input type="text" id="user_email">
+				<input type="text" id="user_email"/>
 				</li>
 				<li>
 				<input type="reset" value="취 소">
