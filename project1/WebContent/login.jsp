@@ -147,29 +147,7 @@
 
 </style>
 
-<script type="text/javascript">
 
-
-
-	$(function(){
-		alert('확인');
-	});
-
-
-	$(document).ready(function(){
-		
-		
-	
-	
-	
-	$(".ul_inner>li").mouseover(function(){
-		$(".ul_inner>li").css("background-color","yellow");
-	});
-
-});
-
-
-</script>
 
 
 </head>
@@ -230,9 +208,11 @@
 			</table>
 			<input type="submit" value="로그인" id="login"></input>
 			</form>
-	
+			
 			</div>
-	
+			
+			<br/>
+			<br/>
 	
 	</section>
 

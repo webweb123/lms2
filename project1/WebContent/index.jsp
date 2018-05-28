@@ -137,30 +137,6 @@
 
 </style>
 
-<script type="text/javascript">
-
-
-
-	$(function(){
-		alert('확인');
-	});
-
-
-	$(document).ready(function(){
-		
-		
-	
-	
-	
-	$(".ul_inner>li").mouseover(function(){
-		$(".ul_inner>li").css("background-color","yellow");
-	});
-
-});
-
-
-</script>
-
 
 </head>
 <body>
