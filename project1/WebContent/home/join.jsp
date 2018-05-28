@@ -175,6 +175,7 @@
 
 		<fieldset>
 			<legend>회원가입</legend>
+			<form>
 			<ul>
 				<li>
 				<label for="uesr_id">&nbsp;아이디</label>&nbsp;
@@ -212,6 +213,7 @@
 				</li>		
 					
 			</ul>
+			</form>
 		
 		</fieldset>
 	

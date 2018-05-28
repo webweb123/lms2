@@ -153,8 +153,7 @@
 	</div>
 	<div class="header-login">
 	<ul class="ul_inner">
-	<li><a href="#">학생 회원가입</a></li>
-	<li><a href="#">직원 회원가입</a></li>
+	<li><a href="#">회원가입</a></li>
 	<li><a href="#">로그인</a></li>
 	</ul>
 	
