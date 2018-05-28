@@ -9,7 +9,7 @@ import java.util.List;
 
 import com.bit.util.MyOracle;
 
-public class job_ad_Dao {
+public class Job_ad_Dao {
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
