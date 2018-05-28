@@ -7,16 +7,20 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.bit.model.Online_cs_Dao;
+import com.bit.model.Online_cs_Dto;
+
 //온라인 상담 리스트
 public class C_online_cs_list_controller extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		super.doGet(req, resp);
+		
+		Online_cs_Dao dao=new Online_cs_Dao();
+		Online_cs_Dto dto=new Online_cs_Dto();
 	}
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		super.doPost(req, resp);
 	}
 }

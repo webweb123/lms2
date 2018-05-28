@@ -7,17 +7,22 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.bit.model.Free_bbs_Dao;
+import com.bit.model.Free_bbs_Dto;
+
+
+//자유게시판 상세보기
 public class S_free_bbs_detail_controller extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		super.doGet(req, resp);
+		
+		Free_bbs_Dao dao=new Free_bbs_Dao();
+		Free_bbs_Dto dto=new Free_bbs_Dto();
 	}
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		super.doPost(req, resp);
+		
 	}
 }

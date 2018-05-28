@@ -10,20 +10,17 @@ import javax.servlet.http.HttpServletResponse;
 import com.bit.model.FAQ_Dao;
 import com.bit.model.FAQ_Dto;
 
-//faq ¿€º∫
-public class C_cs_faq_write_controller extends HttpServlet{
+public class C_cs_faq_detail_update_controller extends HttpServlet{
+	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		
+		
 		FAQ_Dao dao=new FAQ_Dao();
 		FAQ_Dto dto=new FAQ_Dto();
+	
 		
-		
-	}
-	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
-			throws ServletException, IOException {
 		
 	}
 }
