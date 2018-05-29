@@ -1,7 +1,6 @@
 package com.bit.model;
 
 public class Emp_member_Dto {
-	private int mem_num;
 	private String id;
 	private String pw;
 	private String name;
@@ -9,12 +8,8 @@ public class Emp_member_Dto {
 	private String email;
 	private String birth;
 	private String address;
-	public int getMem_num() {
-		return mem_num;
-	}
-	public void setMem_num(int mem_num) {
-		this.mem_num = mem_num;
-	}
+	private String dept;
+	
 	public String getId() {
 		return id;
 	}
@@ -56,6 +51,13 @@ public class Emp_member_Dto {
 	}
 	public void setAddress(String address) {
 		this.address = address;
+	}
+	public void setDept(String dept) {
+		this.dept=dept;
+	}
+	
+	public String getDept(){
+		return dept;
 	}
 	
 	

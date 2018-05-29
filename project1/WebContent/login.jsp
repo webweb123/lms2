@@ -175,17 +175,17 @@
 	
 	<header id="main-header">
 
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\logo.jpg"/>
+	<img src="../img/logo.jpg"/>
 
 	</header>
 	
 	<nav id="nav_menu">
 	<ul class="ul_inner">
-		<li><a href="#">EDUCATION</a></li>
-		<li><a href="#">COMMUNITY</a></li>
-		<li><a href="#">SUPPORT</a></li>
-		<li><a href="#">CONTACT</a></li>
-		<li><a href="#">ABOUT US</a></li>
+		<li><a href="home/education.jsp">EDUCATION</a></li>
+		<li><a href="home/community.jsp">COMMUNITY</a></li>
+		<li><a href="home/support_ap.jsp">SUPPORT</a></li>
+		<li><a href="home/contact_es.jsp">CONTACT</a></li>
+		<li><a href="home/about_intro.jsp">ABOUT US</a></li>
 	</ul>
 	</nav>
 	
@@ -222,8 +222,9 @@
 	<div class="footer_content">
 	
 	<div class="footer_img">
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\bottom01.jpg"/>
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\bottom02.jpg"/>
+	
+	<img src="../img/bottom01.jpg"/>
+	<img src="../img/bottom02.jpg"/>
 	</div>
 	
 	비트캠프 서울특별시 구로구 구로동 810-10 비트아카데미 | 사업자 등록번호: 214-85-24928 <br/>

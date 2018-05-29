@@ -144,7 +144,7 @@
 	<nav id="topMenu">
 	<div class="header-inner">
 	<ul class="ul_inner">
-	<li><a href="#">HOME&nbsp;</a></li>
+	<li><a href="./">HOME&nbsp;</a></li>
 	<li><a href="#">서초센터&nbsp;</a></li>
 	<li><a href="#">강남센터&nbsp;</a></li>
 	<li><a href="#">신촌센터&nbsp;</a></li>
@@ -153,8 +153,8 @@
 	</div>
 	<div class="header-login">
 	<ul class="ul_inner">
-	<li><a href="#">회원가입</a></li>
-	<li><a href="#">로그인</a></li>
+	<li><a href="joinSelect.jsp">회원가입</a></li>
+	<li><a href="login.jsp">로그인</a></li>
 	</ul>
 	
 	</div>
@@ -163,17 +163,17 @@
 	
 	<header id="main-header">
 
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\logo.jpg"/>
+	<img src="img/logo.jpg"/>
 
 	</header>
 	
 	<nav id="nav_menu">
 	<ul class="ul_inner">
-		<li><a href="#">EDUCATION</a></li>
-		<li><a href="#">COMMUNITY</a></li>
-		<li><a href="#">SUPPORT</a></li>
-		<li><a href="#">CONTACT</a></li>
-		<li><a href="#">ABOUT US</a></li>
+		<li><a href="home/education.jsp">EDUCATION</a></li>
+		<li><a href="home/community.jsp">COMMUNITY</a></li>
+		<li><a href="home/support_ap.jsp">SUPPORT</a></li>
+		<li><a href="home/contact_es.jsp">CONTACT</a></li>
+		<li><a href="home/about_intro.jsp">ABOUT US</a></li>
 	</ul>
 	</nav>
 	
@@ -181,15 +181,15 @@
 	
 	
 	<div class="main-section-img">
-	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide01.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[재직자직무교육]</div>
-	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide02.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[취업성공패키지]</div>
-	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide03.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[내일배움카드]</div>
-	<div class="main-section-menu"><img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\index\slide04.jpg"/> <br/>&nbsp;&nbsp;  정규과정[JAVA]</div>
+	<div class="main-section-menu"><img src="img/index/slide01.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[재직자직무교육]</div>
+	<div class="main-section-menu"><img src="img/index/slide02.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[취업성공패키지]</div>
+	<div class="main-section-menu"><img src="img/index/slide03.jpg"/> <br/>&nbsp;&nbsp;국비지원과정[내일배움카드]</div>
+	<div class="main-section-menu"><img src="img/index/slide04.jpg"/> <br/>&nbsp;&nbsp;  정규과정[JAVA]</div>
 	
 	</div>
 	
 	
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\section.jpg" class="main-img"/>
+	<img src="img/section.jpg" class="main-img"/>
 	</section>
 	
 	<br/>
@@ -200,8 +200,8 @@
 	<div class="footer_content">
 	
 	<div class="footer_img">
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\bottom01.jpg"/>
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\bottom02.jpg"/>
+	<img src="img/bottom01.jpg"/>
+	<img src="img/bottom02.jpg"/>
 	</div>
 	
 	비트캠프 서울특별시 구로구 구로동 810-10 비트아카데미 | 사업자 등록번호: 214-85-24928 <br/>

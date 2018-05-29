@@ -99,10 +99,13 @@
 		margin:10px 10px;
 	}
 	
+
 	section label{
 		width:70px;
 		display:inline-block;
 	}
+	
+
 	
 	
 
@@ -156,56 +159,64 @@
 	
 	<header id="main-header">
 
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\logo.jpg"/>
+	<img src="../img/logo.jpg"/>
 
 	</header>
 	
 	<nav id="nav_menu">
 	<ul class="ul_inner">
-		<li><a href="#">EDUCATION</a></li>
-		<li><a href="#">COMMUNITY</a></li>
-		<li><a href="#">SUPPORT</a></li>
-		<li><a href="#">CONTACT</a></li>
-		<li><a href="#">ABOUT US</a></li>
+		<li><a href="home/education.jsp">EDUCATION</a></li>
+		<li><a href="home/community.jsp">COMMUNITY</a></li>
+		<li><a href="home/support_ap.jsp">SUPPORT</a></li>
+		<li><a href="home/contact_es.jsp">CONTACT</a></li>
+		<li><a href="home/about_intro.jsp">ABOUT US</a></li>
 	</ul>
 	</nav>
 	
 	<section>
 
-
+		<form method="post">
 		<fieldset>
 			<legend>회원가입</legend>
-			<form>
 			<ul>
 				<li>
 				<label for="uesr_id">&nbsp;아이디</label>&nbsp;
-				<input type="text" id="user_id">&nbsp;
-				<input type="button" value="중복확인" id="ducheck"></input>
+				<input type="text" id="user_id" name="id">&nbsp;
+				<input type="button" value="중복확인" id="ducheck"/>
 
 				</li>
 				<li>
 				<label for="uesr_pwd">비밀번호</label>
-				<input type="password" id="user_pwd">
+				<input type="password" id="user_pwd" name="pwd"/>
 				</li>
 				<li>
 				<label for="uesr_name">이름</label>
-				<input type="text" id="user_name">
+				<input type="text" id="user_name" name="name"/>
+				</li>
+				<li>
+				<label for="user_dept">부서</label>
+				<select id="user_dept" name="dept">
+					<option>행정</option>
+					<option >영업</option>
+					<option >강사</option>
+					<option >취업지원</option>
+				</select>
 				</li>
 				<li>
 				<label for="uesr_pwd">생년월일</label>
-				<input type="text" id="user_pwd">
+				<input type="text" id="user_pwd" name="birth"/>
 				</li>
 				<li>
 				<label for="uesr_addr">주소</label>
-				<input type="text" id="user_addr">		
+				<input type="text" id="user_addr" name="addr"/>		
 				</li>
 				<li>
 				<label for="uesr_phone">전화번호</label>
-				<input type="text" id="user_phone">
+				<input type="tel" id="user_phone" name="phone"/>
 				</li>			
 				<li>
 				<label for="uesr_email">email</label>
-				<input type="text" id="user_email">
+				<input type="text" id="user_email" name="email"/>
 				</li>
 				<li>
 				<input type="reset" value="취 소">
@@ -213,10 +224,10 @@
 				</li>		
 					
 			</ul>
-			</form>
 		
 		</fieldset>
 	
+		</form>
 	
 	</section>
 	
@@ -228,8 +239,8 @@
 	<div class="footer_content">
 	
 	<div class="footer_img">
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\bottom01.jpg"/>
-	<img src="C:\Users\hb\git\lms2\project1\WebContent\WEB-INF\img\bottom02.jpg"/>
+	<img src="../img/bottom01.jpg"/>
+	<img src="../img/bottom02.jpg"/>
 	</div>
 	
 	비트캠프 서울특별시 구로구 구로동 810-10 비트아카데미 | 사업자 등록번호: 214-85-24928 <br/>

@@ -1,7 +1,8 @@
 package com.bit.model;
 
+
+//예비 수강생
 public class Stu_member_Dto {
-	private int stu_code;
 	private String id;
 	private String pw;
 	private String name;
@@ -9,12 +10,7 @@ public class Stu_member_Dto {
 	private String email;
 	private String birth;
 	private String address;
-	public int getStu_code() {
-		return stu_code;
-	}
-	public void setStu_code(int stu_code) {
-		this.stu_code = stu_code;
-	}
+	
 	public String getId() {
 		return id;
 	}
