@@ -2,7 +2,7 @@ package com.bit.model;
 
 import java.sql.Date;
 
-public class Jop_af_Dto {
+public class Job_af_Dto {
 	private int stu_code;
 	private int season;
 	private String id;

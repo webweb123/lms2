@@ -1,6 +1,7 @@
 package com.bit.ctr.H;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -20,16 +21,18 @@ public class H_edu_af_controller extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		
+		
+		
+		Lec_after_Dao dao=new Lec_after_Dao();
+
+		List<Lec_after_Dto> list=null;
+		
+		list=dao.selectAll();
+		
+		req.setAttribute("alist", list);
+		
+		
 		RequestDispatcher rd = req.getRequestDispatcher("./community.jsp");
 		rd.forward(req, resp);
-		
-		
-		Lec_after_Dao dao=new Lec_after_Dao();
-		Lec_after_Dto a = new Lec_after_Dto();
-	}
-	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
-			throws ServletException, IOException {
-		Lec_after_Dao dao=new Lec_after_Dao();
 	}
 }

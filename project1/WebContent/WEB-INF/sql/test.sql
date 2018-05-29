@@ -52,5 +52,8 @@ create sequence ocs_seq;
 select * from jop_af;
 
 insert into jop_af values(1001,1,'wony','test1','test1',1,sysdate);
+insert into lec_after values(1001,'wony','hi','hello',2,sysdate);
+
+select * from LEC_AFTER;
 
 >>>>>>> branch 'master' of https://github.com/webweb123/lms2.git

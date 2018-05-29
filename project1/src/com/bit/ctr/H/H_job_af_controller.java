@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.bit.model.Jop_af_Dao;
-import com.bit.model.Jop_af_Dto;
+import com.bit.model.Job_af_Dao;
+import com.bit.model.Job_af_Dto;
 
 
 //community-취업후기
@@ -22,10 +22,9 @@ public class H_job_af_controller extends HttpServlet{
 			throws ServletException, IOException {
 		
 		
-		Jop_af_Dao dao = new Jop_af_Dao();
-		Jop_af_Dto dto = new Jop_af_Dto();
+		Job_af_Dao dao = new Job_af_Dao();
 		
-		List<Jop_af_Dto> list=null;
+		List<Job_af_Dto> list=null;
 		
 		list = dao.selectAll();
 		
