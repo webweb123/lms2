@@ -99,10 +99,13 @@
 		margin:10px 10px;
 	}
 	
+
 	section label{
 		width:70px;
 		display:inline-block;
 	}
+	
+
 	
 	
 
@@ -204,7 +207,7 @@
 				</li>
 				<li>
 				<label for="uesr_phone">전화번호</label>
-				<input type="text" id="user_phone"/>
+				<input type="tel" id="user_phone"/>
 				</li>			
 				<li>
 				<label for="uesr_email">email</label>
