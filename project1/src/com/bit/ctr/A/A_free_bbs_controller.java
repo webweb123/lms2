@@ -15,13 +15,14 @@ import com.bit.model.Free_bbs_Dao;
 import com.bit.model.Free_bbs_Dto;
 
 @WebServlet("/guest/free_bbs.bit")
-public class A_free_bbs_controller extends HttpServlet{
+public class A_free_bbs_controller extends HttpServlet {
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+
 		Free_bbs_Dao dao = new Free_bbs_Dao();
-		List<Free_bbs_Dto> list=null;
-		
+		List<Free_bbs_Dto> list = null;
+
 		try {
 			list = dao.selectAll();
 		} catch (ClassNotFoundException e) {
@@ -32,14 +33,15 @@ public class A_free_bbs_controller extends HttpServlet{
 			e.printStackTrace();
 		}
 
-		
 		req.setAttribute("alist", list);
-		
+
 		RequestDispatcher rd = req.getRequestDispatcher("../A_freebbs.jsp");
 		rd.forward(req, resp);
 	}
+
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
 	}
 
 }

@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<h1>freebbs</h1>
 	<table>
 	<tr>
 			<td>idx</td>
@@ -20,7 +21,7 @@
 		</tr>
 		<c:forEach items="${alist }" var="bean">
 		<tr>
-			<td><a href="free_bbs.bit"></a> ${bean.idx }</td>
+			<td><a href="free_bbs_detail.bit?idx=${bean.idx} "> ${bean.idx }</a></td>
 			<td>${bean.stu_code }</td>
 			<td>${bean.id }</td>
 			<td>${bean.sub }</td>

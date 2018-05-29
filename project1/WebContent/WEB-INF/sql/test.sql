@@ -6,4 +6,16 @@ insert into STUDENT values(1,1,'test1','test1','test1','test1','test1','test1','
 
 
 insert into FREE_BBS values(free_bbs_sequ.nextval,1,'test1','test1','test1',0,sysdate);
+insert into FREE_BBS values(free_bbs_sequ.nextval,1,'test1','test1','test1',0,sysdate);
 select * from FREE_BBS;
+
+
+
+insert into STAFF values(2001,'test1','test1','test1','test1','test1','test1','test1');
+insert into STAFF values(2002,'test1','test1','test1','test1','test1','test1','test1');
+insert into STAFF values(2003,'test1','test1','test1','test1','test1','test1','test1');
+insert into STAFF values(2004,'test1','test1','test1','test1','test1','test1','test1');
+
+select * from STAFF;
+
+CREATE SEQUENCE lec_create_sequ;
