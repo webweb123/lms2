@@ -5,6 +5,7 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.bit.util.MyOracle;
@@ -36,8 +37,27 @@ public class Staff_Dao {
 		return new Staff_Dto();
 	}
 
-	public List<Staff_Dto> selectAll() {
-		List<Staff_Dto> list = null;
+	public List<Staff_Dto> selectAll() throws SQLException, ClassNotFoundException {
+		List<Staff_Dto> list = new ArrayList<Staff_Dto>();
+		String sql = "select * from staff where emp_code>2000 and emp_code<3000";
+		try{
+			conn=MyOracle.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			while(rs.next()){
+				Staff_Dto bean = new Staff_Dto();
+				bean.setName(rs.getString("name"));
+				list.add(bean);
+			}
+			
+		}finally{
+			if(rs!=null)rs.close();
+			if(pstmt!=null)pstmt.close();
+			if(conn!=null)conn.close();
+		}
+		
+		
+		
 		return list;
 	}
 }

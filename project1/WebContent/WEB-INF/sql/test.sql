@@ -3,6 +3,7 @@ insert into STU_MEMBER values(1,'test1','test1','test1','test1','test1','test1',
 insert into APP_BBS_STU values(1,'test1','test1',sysdate,'test1','test1','test1','test1','test1',1);
 insert into LEC_CREATE values(1,1,1,'test1',sysdate,sysdate,'test1',1);
 insert into STUDENT values(1,1,'test1','test1','test1','test1','test1','test1','test1',1);
+<<<<<<< HEAD
 insert into FREE_BBS values(free_bbs_sequ.nextval,1,'test1','test1','test1',0,sysdate);
 
 
@@ -22,3 +23,21 @@ create sequence c_seq start with 5001 maxvalue 5999;
 select * from STU_MEMBER;
 
 select * from EMP_MEMBER;
+=======
+
+
+insert into FREE_BBS values(free_bbs_sequ.nextval,1,'test1','test1','test1',0,sysdate);
+insert into FREE_BBS values(free_bbs_sequ.nextval,1,'test1','test1','test1',0,sysdate);
+select * from FREE_BBS;
+
+
+
+insert into STAFF values(2001,'test1','test1','test1','test1','test1','test1','test1');
+insert into STAFF values(2002,'test1','test1','test1','test1','test1','test1','test1');
+insert into STAFF values(2003,'test1','test1','test1','test1','test1','test1','test1');
+insert into STAFF values(2004,'test1','test1','test1','test1','test1','test1','test1');
+
+select * from STAFF;
+
+CREATE SEQUENCE lec_create_sequ;
+>>>>>>> branch 'master' of https://github.com/webweb123/lms2.git

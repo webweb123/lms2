@@ -17,8 +17,25 @@ public class Lec_create_Dao {
 	public void deleteOne(int code) {
 	}
 
-	public void updateOne(int season, int emp_code, int class_room, String id,
-			Date sday, Date eday, String edu, int tot) {
+	public void updateOne( int emp_code, int class_room, String id,
+			Date sday,String edu,int tot) {
+		String sql ="insert into lec_create values(lec_create_sequ.nextval,?,?,?,?,?,?,0)";
+		Lec_create_Dto a = new Lec_create_Dto();
+		try {
+			conn=MyOracle.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, emp_code);
+			pstmt.setInt(2, class_room);
+			pstmt.setString(3, id);
+			pstmt.setDate(4, sday);
+			pstmt.setDate(5, sday);
+			pstmt.setString(6, edu);
+			
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public void modiOne(int season, int emp_code, int class_room, String id,
