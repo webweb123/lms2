@@ -40,4 +40,17 @@ insert into STAFF values(2004,'test1','test1','test1','test1','test1','test1','t
 select * from STAFF;
 
 CREATE SEQUENCE lec_create_sequ;
+
+select * from JOB_AD;
+
+
+select * from online_cs;
+
+
+create sequence ocs_seq;
+
+select * from jop_af;
+
+insert into jop_af values(1001,1,'wony','test1','test1',1,sysdate);
+
 >>>>>>> branch 'master' of https://github.com/webweb123/lms2.git

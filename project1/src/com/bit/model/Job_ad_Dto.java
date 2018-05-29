@@ -6,6 +6,8 @@ public class Job_ad_Dto {
 	private String field;
 	private String email;
 	private int pay;
+	
+	
 	public String getCompany() {
 		return company;
 	}

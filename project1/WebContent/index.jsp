@@ -169,11 +169,11 @@
 	
 	<nav id="nav_menu">
 	<ul class="ul_inner">
-		<li><a href="home/education.jsp">EDUCATION</a></li>
-		<li><a href="home/community.jsp">COMMUNITY</a></li>
-		<li><a href="home/support_ap.jsp">SUPPORT</a></li>
-		<li><a href="home/contact_es.jsp">CONTACT</a></li>
-		<li><a href="home/about_intro.jsp">ABOUT US</a></li>
+		<li><a href="home/education.bit">EDUCATION</a></li>
+		<li><a href="home/community.bit">COMMUNITY</a></li>
+		<li><a href="home/supportAp.bit">SUPPORT</a></li>
+		<li><a href="home/contactEs.bit">CONTACT</a></li>
+		<li><a href="home/aboutIntro.bit">ABOUT US</a></li>
 	</ul>
 	</nav>
 	

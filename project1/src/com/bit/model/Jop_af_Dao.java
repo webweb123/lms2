@@ -37,7 +37,33 @@ public class Jop_af_Dao {
 	}
 
 	public List<Jop_af_Dto> selectAll() {
+		
+		
+		
 		List<Jop_af_Dto> list = null;
+		String sql="SELECT * FROM JOB_AF";
+		
+		try {
+			conn=MyOracle.getConnection();
+			pstmt=conn.prepareStatement(sql);
+			rs=pstmt.executeQuery();
+			
+			while(rs.next())
+			{
+			
+				Jop_af_Dto dto=new Jop_af_Dto();
+				dto.setStu_code(rs.getInt(1));
+				dto.setId(id);
+			}
+			
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		
+		
 		return list;
 	}
 }

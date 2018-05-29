@@ -40,4 +40,29 @@ public class Online_cs_Dao {
 		List<Online_cs_Dto> list = null;
 		return list;
 	}
+
+	public int insertOne(Online_cs_Dto dto) {
+		int result=0;
+		String sql="insert into online_cs values(ocs_seq.nextval,?,?,?,?,?,sysdate,?)";
+		
+		try {
+			conn=MyOracle.getConnection();
+			pstmt=conn.prepareStatement(sql);
+			pstmt.setString(1, dto.getName());
+			pstmt.setString(2, dto.getSub());
+			pstmt.setString(3, dto.getContent());
+			pstmt.setString(4, dto.getEmail());
+			pstmt.setString(5, dto.getPhone());
+			pstmt.setInt(6, dto.getYn());
+			
+			result=pstmt.executeUpdate();
+			
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return result;
+	}
 }
