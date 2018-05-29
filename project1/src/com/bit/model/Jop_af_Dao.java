@@ -53,7 +53,7 @@ public class Jop_af_Dao {
 			
 				Jop_af_Dto dto=new Jop_af_Dto();
 				dto.setStu_code(rs.getInt(1));
-				dto.setId(id);
+				//dto.setId(id);
 			}
 			
 		} catch (ClassNotFoundException e) {
